@@ -13,7 +13,7 @@
     "webpack-cli": "3.2.1",
     "webpack-dev-server": "3.1.14",
     "expose-loader": "0.7.5",
-    "typescript": "3.2.4",
+    "typescript": "^2.9.2",
     "ts-loader": "5.3.3"
   },
   "dependencies": {
@@ -22,18 +22,5 @@
   "scripts": {
     "dev": "webpack --mode development && webpack-dev-server --mode development",
     "prod": "webpack --mode production && webpack-dev-server --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/digitsensitive/phaser3-typescript.git"
-  },
-  "author": {
-    "name": "digitsensitive",
-    "email": "digit.sensitivee@gmail.com"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/digitsensitive/phaser3-typescript/issues"
-  },
-  "homepage": "https://github.com/digitsensitive/phaser3-typescript#readme"
+  }
 }
