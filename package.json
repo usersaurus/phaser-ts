@@ -17,7 +17,7 @@
     "ts-loader": "5.3.3"
   },
   "dependencies": {
-    "phaser": "3.16.0"
+    "phaser": "3.16.1"
   },
   "scripts": {
     "dev": "webpack --mode development && webpack-dev-server --mode development",
